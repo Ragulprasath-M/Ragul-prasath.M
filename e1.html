@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ragulprasath M — Portfolio</title>
+
+  <!-- AOS (Scroll Animations) -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Font & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="e1.css">
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="logo">Ragulprasath.M</div>
+      <div class="spinner"></div>
+    </div>
+  </div>
+
+  <!-- PARTICLES BACKDROP -->
+  <div id="particles-js" aria-hidden="true"></div>
+
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">Ragulprasath.M</a>
+      <button id="menu-toggle" aria-expanded="false" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certs">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main id="home" class="hero-section">
+    <div class="hero-inner container">
+      <div class="hero-left" data-aos="fade-right">
+        <div class="photo-wrap">
+          <div class="photo-ring"></div>
+          <img src="001.jpeg" alt="Ragulprasath photo" class="hero-photo" id="hero-photo">
+        </div>
+      </div>
+
+      <div class="hero-right" data-aos="fade-left">
+        <h1 class="hero-title">Hello — I'm <span class="accent">Ragulprasath</span></h1>
+        <p class="hero-subtitle"><span id="typed"></span></p>
+        <p class="hero-desc">
+          MERN Stack Developer & IT Infrastructure Specialist. <br> I build scalable web apps and reliable IT systems.
+        </p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+        </div>
+        <div class="socials" aria-hidden="false">
+          <a class="social" target="_blank" rel="noopener" href="https://www.linkedin.com/in/ragul-prasath" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a class="social" target="_blank" rel="noopener" href="https://github.com/Ragulprasath-M" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about-section container" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p class="lead">Experienced IT professional skilled in MERN stack development and IT infrastructure management. I focus on secure, performant apps and smooth operations.</p>
+
+    <div class="contact-quick">
+      <div><strong>Email:</strong> <a href="mailto:ragulmanikandan836@gmail.com">ragulmanikandan836@gmail.com</a></div>
+      <div><strong>Phone:</strong> <a href="tel:+919080449976">+91 9080449976</a></div>
+      <div><strong>Location:</strong> Coimbatore, Tamil Nadu</div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills-section container">
+    <h2 data-aos="fade-up">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card" data-aos="flip-left" data-aos-delay="100">
+        <h3>Frontend</h3>
+        <p>HTML, CSS, Bootstrap, React</p>
+        <div class="bar" data-value="90"><div></div></div>
+      </div>
+      <div class="skill-card" data-aos="flip-left" data-aos-delay="200">
+        <h3>Backend</h3>
+        <p>Node.js, Express, MongoDB</p>
+        <div class="bar" data-value="85"><div></div></div>
+      </div>
+      <div class="skill-card" data-aos="flip-left" data-aos-delay="300">
+        <h3>DevOps</h3>
+        <p>Docker, CI/CD basics</p>
+        <div class="bar" data-value="70"><div></div></div>
+      </div>
+      <div class="skill-card" data-aos="flip-left" data-aos-delay="400">
+        <h3>IT Support</h3>
+        <p>Hardware, Network, ERP support</p>
+        <div class="bar" data-value="95"><div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE TIMELINE -->
+  <section id="experience" class="section exp-section container">
+    <h2 data-aos="fade-up">Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="time">09/2024 — Present</div>
+        <div class="card">
+          <h3>IT-Support Engineer (L2) — Klaus Union & Co.</h3>
+          <p>Provided IT support in manufacturing environment, CCTV, ERP, asset management, backups and on-floor support.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="time">08/2019 — 06/2021</div>
+        <div class="card">
+          <h3>System Support Engineer — Poorvika Corporation</h3>
+          <p>Designed and maintained IT infrastructure, automated scripts, backups, and system documentation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section projects-section container">
+    <h2 data-aos="fade-up">Projects</h2>
+    <div class="projects-grid">
+      <article class="project" data-aos="zoom-in" data-aos-delay="100">
+        <div class="project-inner tilt">
+          <div class="project-front">
+            <img src="003.png" alt="Task Manager">
+            <h3>Task Management App</h3>
+          </div>
+          <div class="project-back">
+            <h4>Task Management App (MERN)</h4>
+            <p>Full CRUD, auth, dashboard, responsive UI. Hosted on GitHub Pages.</p>
+          </div>
+        </div>
+      </article>
+      <article class="project" data-aos="zoom-in" data-aos-delay="200">
+        <div class="project-inner tilt">
+          <div class="project-front">
+            <img src="004.png" alt="Ticketing System">
+            <h3>IT Support Ticketing System</h3>
+          </div>
+          <div class="project-back">
+            <h4>Ticketing System</h4>
+            <p>Full-stack ticketing with admin panel to manage incidents and assets.</p>
+          </div>
+        </div>
+      </article>
+      <article class="project" data-aos="zoom-in" data-aos-delay="300">
+        <div class="project-inner tilt">
+          <div class="project-front">
+            <img src="002.jpg" alt="Portfolio">
+            <h3>Portfolio Website</h3>
+          </div>
+          <div class="project-back">
+            <h4>Portfolio</h4>
+            <p>Responsive, animated portfolio hosted on GitHub Pages.</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section container">
+    <h2 data-aos="fade-up">Contact</h2>
+    <div class="contact-grid" data-aos="fade-up" data-aos-delay="100">
+      <div class="contact-card">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:ragulmanikandan836@gmail.com">ragulmanikandan836@gmail.com</a>
+      </div>
+      <div class="contact-card">
+        <i class="fas fa-phone"></i>
+        <a href="tel:+919080449976">+91 9080449976</a>
+      </div>
+      <div class="contact-card">
+        <i class="fas fa-map-marker-alt"></i>
+        <div>Coimbatore, Tamil Nadu</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Ragulprasath M. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- LIBRARIES -->
+  <script src="https://unpkg.com/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="e1.js"></script>
+  <script> AOS.init({ duration: 900, once: true, easing: 'ease-out-quart' }); </script>
+</body>
+</html>
